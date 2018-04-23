@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Slick</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="slick/slick.min.js"/></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: darkblue;
+        }
+        #example {
+            width: 80vw;
+            height: 80vh;
+            position: relative;
+            top: 10vh;
+            left: 10vw;
+        }
+    </style>
+</head>
+<body>
+<div id="example">
+<div class="slider variable-width">
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/a6c/405_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/a6c0d413cd772de443cb54ed66df43fd.jpg"/>
+    </div>
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/ebe/405_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/ebebc4ffb203f90a4e1be368e86d842d.jpg"/>
+    </div>
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/c84/405_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/c845a5ee75037c430c0ca8a8f49f8072.jpg"/>
+    </div>
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/bdc/720_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/bdcdad4ed1ff976c9e6eabda895e60bd.jpg"/>
+    </div>
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/26a/405_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/26af546909b7d42d4857d2f5867c4431.jpg"/>
+    </div>
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/28b/405_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/28bd59586109ba6e147d3e70d7cf241f.jpg"/>
+    </div>
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/09b/405_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/09b3a6c20df641772553e0903d7e8fdc.jpg"/>
+    </div>
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/0f8/720_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/0f82b2ff818b85cfbf7afa2231bdfb2b.jpg"/>
+    </div>
+    <div>
+        <img src="https://dev.hostelcity.su/upload/resize_cache/iblock/454/405_540_1d7a58ff99b324185ccb5ad5dfbdb5e85/4546ff5e5f7aa56ef08a60fcaa621ba4.jpg"/>
+    </div>
+</div>
+</div>
+<script>
+    $('.variable-width').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+    });
+</script>
+</body>
+</html>
